@@ -136,7 +136,7 @@ if __name__ == '__main__':
     ensemble_model = MnistBaselineTest()
     ensemble_model.ensemble_loss(tf.convert_to_tensor(test_x0), tf.convert_to_tensor(test_x0))
     print("load weights...")
-    ensemble_model.load_weights("baseline_model/model_154.h5")
+    ensemble_model.load_weights("baseline_model/model.h5")
     print("load done")
 
     # generate 0
