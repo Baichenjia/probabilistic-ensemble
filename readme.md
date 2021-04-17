@@ -14,7 +14,7 @@ The following command should train the Probabilistic Ensemble for "noise mnist" 
 python baseline_train.py
 ```
 
-This command will train for 200 epochs. The weights of VDM saved in `baseline_model/`. Then use following command to perform the conditional generation process to produce the figures.
+This command will train for 200 epochs. The weights are saved in `baseline_model/`. Then use following command to perform the conditional generation process to produce the figures.
 ```
 python baseline_generate.py
 ```
